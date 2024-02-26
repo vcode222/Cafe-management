@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>PLACE YOUR ORDER</title>
+</head>
+<style>
+body 
+{ 
+ background-image: url("product.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ } 
+ a{
+     color: white;
+ }
+ h2{
+     color: white;
+ }
+</style>
+<body>
+<h1 align="center" style="color: white;">PLACE YOUR ORDER</h1>
+<hr />
+<form action="AddProduct" method="post">
+ <table>
+ <tr>
+ <td><h2>ORDER NO:</h2></td>
+ <td><input type="text" name="id"></td> </tr>
+ 
+<tr>
+ <td><h2>COFFEE NAME:</h2></td>
+ <td><input type="text" name="name"></td> </tr>
+ 
+
+<tr>
+ <td><h2>PRICE:</h2></td>
+ <td><input type="text" name="cost"></td> </tr>
+<tr>
+
+<tr>
+ <td><h2>QUANTITY:</h2></td>
+ <td><input type="text" name="qty"></td> </tr>
+<tr>
+ 
+<tr>
+ <td colspan="5" align="center"><input type="submit" value="PLACE YOUR ORDER"></td>
+ </tr>
+ </table>
+ </form>
+<br /> <a href="ViewProduct">VIEW ALL ORDERS</a>
+<br><br>
+<a href="Option.html">OPTION PAGE</a>
+</body>
+</html> 

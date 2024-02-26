@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OPTION PAGE</title>
+</head>
+<style>
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+a{
+align:center;
+}
+body 
+{ 
+background-image: url("option1.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ }  
+</style>
+<script>
+
+function book()
+{
+	document.location.href = "Product.html";
+}
+function editproduct()
+{
+	document.location.href = "ViewProduct";
+}
+function deleteproduct()
+{
+	document.location.href = "ViewProduct";
+}
+function viewproduct()
+{
+	document.location.href = "ViewProduct";
+}
+
+
+
+</script>
+<body>
+    <h1 align="center" style="color:white;">CHOOSE AN OPTION<h1 style="text-align: left;"><a href="frontpg.html">HOME</a></h1>
+<button type="reset" onclick="book()" class="button">PLACE YOUR ORDER</button><br><br>
+<button type="reset" onclick="editproduct()" class="button">CHANGE ORDER</button><br><br>
+<button type="reset" onclick="deleteproduct()" class="button">REMOVE ORDER</button><br><br>
+<button type="reset" onclick="viewproduct()" class="button">VIEW ORDER</button><br><br>
+
+</body>
+</html>
